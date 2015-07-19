@@ -75,6 +75,27 @@
     background: #fff;
   }
 
+  .tables .cubes .itemBox {
+    position: relative;
+  }
+
+  .tables .cubes .itemBox:before {
+    position: absolute;
+    top:0;
+    left:0;
+    display:block;
+    content: "";
+    width: 70px;
+    height: 70px;
+    background-image: url(images/icons.png);
+    background-repeat: no-repeat;
+  }
+
+  .mainProds01 .itemBox:before { background-position: 0 0; }
+  .mainProds02 .itemBox:before { background-position: 0 -70px; }
+  .mainProds03 .itemBox:before { background-position: 0 -140px; }
+  .mainProds04 .itemBox:before { background-position: 0 -210px; } 
+
   .tables .small {
     width:300px;
     height:300px;
